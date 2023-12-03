@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchingPhilosophers", "LunchingPhilosophers\LunchingPhilosophers.csproj", "{81EB64AC-9EBE-4856-9CCD-1132FBFBD549}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartProject", "StartProject\StartProject.csproj", "{8A83AD6D-43BD-461A-B11A-311B10CCE204}"
+	ProjectSection(ProjectDependencies) = postProject
+		{81EB64AC-9EBE-4856-9CCD-1132FBFBD549} = {81EB64AC-9EBE-4856-9CCD-1132FBFBD549}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81EB64AC-9EBE-4856-9CCD-1132FBFBD549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EB64AC-9EBE-4856-9CCD-1132FBFBD549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EB64AC-9EBE-4856-9CCD-1132FBFBD549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EB64AC-9EBE-4856-9CCD-1132FBFBD549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A83AD6D-43BD-461A-B11A-311B10CCE204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A83AD6D-43BD-461A-B11A-311B10CCE204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A83AD6D-43BD-461A-B11A-311B10CCE204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A83AD6D-43BD-461A-B11A-311B10CCE204}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA39936C-9AE0-4503-AA99-08EC747D3287}
+	EndGlobalSection
+EndGlobal
